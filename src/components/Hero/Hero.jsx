@@ -13,6 +13,8 @@ const Hero = () => {
                 I am <a className="decimal-to-binary-link" href="https://www.rapidtables.com/convert/number/decimal-to-binary.html" target="_blank" rel="noreferrer">10001</a><sub>2</sub> years old.
             </p>
 
+            <img className="avatar" src="https://avatars.githubusercontent.com/u/76961402?v=4" alt="avatar"/>
+
             <div>
                 <h1 className="communication-heading">Communication</h1>
 
@@ -29,10 +31,10 @@ const Hero = () => {
             </div>
 
             <h2>Socials</h2>
-            <p><a href="https://twitter.com/jvnxs7">jvnxs7</a> on Twitter <i class="fab fa-twitter"></i></p>
-            <p><a href="https://github.com/jonasrdl">jonasrdl</a> on GitHub <i class="fab fa-github"></i></p>
-            <p><a href="https://keybase.io/jonasrdl">jonasrdl</a> on Keybase <i class="fab fa-keybase"></i></p>
-            <p><a href="https://discord.com">jvnxs7#6969</a> on Discord <i class="fab fa-discord"></i></p>   
+            <p><a href="https://twitter.com/jvnxs7">jvnxs7</a> on Twitter <i className="fab fa-twitter"></i></p>
+            <p><a href="https://github.com/jonasrdl">jonasrdl</a> on GitHub <i className="fab fa-github"></i></p>
+            <p><a href="https://keybase.io/jonasrdl">jonasrdl</a> on Keybase <i className="fab fa-keybase"></i></p>
+            <p><a href="https://discord.com">jvnxs7#6969</a> on Discord <i className="fab fa-discord"></i></p>   
         </main>
     )
 }

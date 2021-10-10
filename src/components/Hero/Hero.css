@@ -19,3 +19,10 @@ pre {
     width: 60%;
     margin-left: 20%;
 }
+
+.avatar {
+    margin-top: 2rem;
+    margin-left: 41%;
+    width: 150px;
+    height: 150px;
+}
