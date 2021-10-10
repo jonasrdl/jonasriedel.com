@@ -1,0 +1,21 @@
+p {
+    color: #DCD6D6;
+    text-align: center;
+}
+
+.jonas-name-link, .decimal-to-binary-link, a {
+    color: #DCD6D6;
+}
+
+.communication-heading {
+    font-size: 22px;
+}
+
+pre {
+    color: #fff;
+}
+
+.codeblock {
+    width: 60%;
+    margin-left: 20%;
+}
