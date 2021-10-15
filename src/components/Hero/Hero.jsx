@@ -1,7 +1,7 @@
 import './Hero.css'
 import { CodeBlock, dracula } from "react-code-blocks";
 
-const code = `let domain = 'jonasriedel.com'
+const code = `let domain = 'protonmail.com'
 let email = 'jonasriedel' + '@' + domain
 `
 
