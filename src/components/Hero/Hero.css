@@ -1,28 +1,30 @@
 p {
-    color: #DCD6D6;
-    text-align: center;
+  color: #dcd6d6;
+  text-align: center;
 }
 
-.jonas-name-link, .decimal-to-binary-link, a {
-    color: #DCD6D6;
+.jonas-name-link,
+.decimal-to-binary-link,
+a {
+  color: #dcd6d6;
 }
 
 .communication-heading {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 pre {
-    color: #fff;
+  color: #fff;
 }
 
 .codeblock {
-    width: 60%;
-    margin-left: 20%;
+  width: 60%;
+  margin-left: 20%;
 }
 
 .avatar {
-    margin-top: 2rem;
-    margin-left: 41%;
-    width: 150px;
-    height: 150px;
+  margin-top: 2rem;
+  margin-left: 41%;
+  width: 150px;
+  height: 150px;
 }

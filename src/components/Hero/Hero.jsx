@@ -46,6 +46,17 @@ const Hero = () => {
         </div>
       </div>
 
+      <p>
+        <a
+          href="https://status.jonasriedel.com"
+          className="statusPageLink"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Status page
+        </a>
+      </p>
+
       <h2>Socials</h2>
       <p>
         <a href="https://twitter.com/jvnxs7">jvnxs7</a> on Twitter{' '}
