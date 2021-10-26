@@ -39,7 +39,7 @@ const Hero = () => {
       <div>
         <h1 className="communication-heading">Communication</h1>
 
-        <p>You could write me an Email, if you know Javascript.</p>
+        <p>You can email me if you know Javascript.</p>
 
         <div className="codeblock">
           <CodeBlock text={code} language="javascript" showLineNumbers="true" theme={dracula} />
