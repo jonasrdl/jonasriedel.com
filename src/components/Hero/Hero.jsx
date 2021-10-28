@@ -59,25 +59,25 @@ const Hero = () => {
 
       <h2>Socials</h2>
       <p>
-        <a href="https://twitter.com/jvnxs7" target="_blank">
+        <a href="https://twitter.com/jvnxs7" target="_blank" rel="noreferrer">
           jvnxs7
         </a>{' '}
         on Twitter <i className="fab fa-twitter"></i>
       </p>
       <p>
-        <a href="https://github.com/jonasrdl" target="_blank">
+        <a href="https://github.com/jonasrdl" target="_blank" rel="noreferrer">
           jonasrdl
         </a>{' '}
         on GitHub <i className="fab fa-github"></i>
       </p>
       <p>
-        <a href="https://keybase.io/jonasrdl" target="_blank">
+        <a href="https://keybase.io/jonasrdl" target="_blank" rel="noreferrer">
           jonasrdl
         </a>{' '}
         on Keybase <i className="fab fa-keybase"></i>
       </p>
       <p>
-        <a href="https://discord.com/users/209945797918195712" target="_blank">
+        <a href="https://discord.com/users/209945797918195712" target="_blank" rel="noreferrer">
           jvnxs7#6969
         </a>{' '}
         on Discord <i className="fab fa-discord"></i>
