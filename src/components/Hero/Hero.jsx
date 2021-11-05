@@ -51,7 +51,8 @@ const Hero = () => {
           url='https://status.jonasriedel.com'
           className='statusPageLink'
           text='Status page'
-        />
+        />{' '}
+        <i class="fas fa-signal"></i>
       </p>
 
       <h2>Socials</h2>
