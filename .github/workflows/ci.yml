@@ -18,6 +18,6 @@ jobs:
           password: '${{ secrets.PASSWORD }}'
           port: '${{ secrets.PORT }}'
           script: |
-            cd /home/jriedel/jonasriedel.com
+            cd /home/${{ secrets.USERNAME }}/jonasriedel.com
             git pull
             docker-compose up -d --force-recreate --build
