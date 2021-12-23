@@ -30,7 +30,7 @@ function App() {
                 value: '#1c1c1e'
               }
             },
-            fpsLimit: 144,
+            fpsLimit: 60,
             interactivity: {
               events: {
                 onClick: {
