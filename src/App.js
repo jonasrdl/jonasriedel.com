@@ -34,7 +34,7 @@ function App() {
             interactivity: {
               events: {
                 onClick: {
-                  enable: true,
+                  enable: false,
                   mode: 'push'
                 },
                 onHover: {
@@ -51,7 +51,7 @@ function App() {
                   size: 40
                 },
                 push: {
-                  quantity: 4
+                  quantity: 2
                 },
                 repulse: {
                   distance: 200,
@@ -65,7 +65,7 @@ function App() {
               },
               links: {
                 color: '#ffffff',
-                distance: 150,
+                distance: 140,
                 enable: true,
                 opacity: 0.5,
                 width: 1
