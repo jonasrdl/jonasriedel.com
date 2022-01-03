@@ -18,7 +18,7 @@ const Hero = () => {
         />
         . I am{' '}
         <Link
-          url='https://www.rapidtables.com/convert/number/binary-to-decimal.html'
+          url='https://www.rapidtables.com/convert/number/binary-to-decimal.html?x=10001'
           text='10001'
           className='decimal-to-binary-link'
         />
