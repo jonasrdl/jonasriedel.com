@@ -1,12 +1,13 @@
-import './Hero.css'
+import './Hero.scss'
 import { CodeBlock, dracula } from 'react-code-blocks'
 import Link from '../Link/Link'
+import { FC } from 'react'
 
-const code = `let domain = 'protonmail.com'
+const code: string = `let domain = 'protonmail.com'
 let email = 'jonasriedel' + '@' + domain
 `
 
-const Hero = () => {
+const Hero: FC = () => {
   return (
     <main>
       <p>
@@ -52,7 +53,7 @@ const Hero = () => {
           className='statusPageLink'
           text='Status page'
         />{' '}
-        <i class="fas fa-signal"></i>
+        <i className="fas fa-signal"></i>
       </p>
 
       <h2>Socials</h2>
