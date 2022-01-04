@@ -1,12 +1,14 @@
+$white: #dcd6d6;
+
 p {
-  color: #dcd6d6;
+  color: $white;
   text-align: center;
 }
 
 .jonas-name-link,
 .decimal-to-binary-link,
 a {
-  color: #dcd6d6;
+  color: $white;
 }
 
 .communication-heading {
@@ -14,7 +16,7 @@ a {
 }
 
 pre {
-  color: #fff;
+  color: $white;
 }
 
 .codeblock {
