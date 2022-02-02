@@ -1,8 +1,8 @@
 version: '3'
 services:
-  frontend:
-    build: .
-    restart: always
-    command: serve -s build
-    ports:
-      - '8900:3000'
+    frontend:
+        build: .
+        restart: always
+        command: serve -s dist
+        ports:
+            - '8900:8080'
