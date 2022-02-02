@@ -34,6 +34,14 @@
         ></a>
         on LinkedIn <i class="fab fa-linkedin"></i>
     </p>
+    <p>
+        <a
+            href="mailto:jonasriedel@protonmail.com"
+            text="jonasriedel@protonmail.com"
+            target="_blank"
+        ></a>
+        Email <i class="fas fa-paper-plane"></i>
+    </p>
 </template>
 
 <style lang="scss" scoped>
