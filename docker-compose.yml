@@ -3,6 +3,6 @@ services:
     frontend:
         build: .
         restart: always
-        command: serve -s dist
+        command: serve -s build
         ports:
-            - '8900:8080'
+            - '10.10.0.2:8900:8080'
