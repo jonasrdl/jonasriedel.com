@@ -31,9 +31,9 @@ class Hero extends React.Component {
                             </ul>
                         </div>
 
-                        <p>Becoming programmer, and im 17 years old.</p>
+                        <p>I'm 17 years old.</p>
 
-                        <p>Stuff i know:</p>
+                        <p>Stuff I know:</p>
                         <ul>
                             <li>Linux (daily driving)</li>
                             <li>Java</li>
@@ -53,7 +53,7 @@ class Hero extends React.Component {
                                     Discord Bot
                                 </a>
                                 <span className='fontsmall'>
-                                    : i created my own Discord Bot.
+                                    : I created my own Discord Bot.
                                 </span>
                             </li>
                             <li>
