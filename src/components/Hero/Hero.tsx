@@ -5,11 +5,21 @@ const code: string = `let domain = 'jonasriedel.com'
 let email = 'development' + '@' + domain
 `
 
+const calculateAge = (birthday: string) => {
+  const ageDifMs = Date.now() - new Date(birthday).getTime();
+  const ageDate = new Date(ageDifMs);
+
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
+
 const Hero = () => {
+  const age = calculateAge('2004-09-24');
+  const binaryAge = age.toString(2);
+
   return (
     <main>
       <p>
-        Hello, my name is <Link url="https://en.wikipedia.org/wiki/Jonas_(name)" text="Jonas" className="jonas-name-link" />. I am <Link url="https://www.rapidtables.com/convert/number/binary-to-decimal.html?x=10001" text="10001" className="decimal-to-binary-link" />
+        Hello, my name is <Link url="https://en.wikipedia.org/wiki/Jonas_(name)" text="Jonas" className="jonas-name-link" />. I am <Link url={`https://www.rapidtables.com/convert/number/binary-to-decimal.html?x=${binaryAge}`} text={binaryAge} className="decimal-to-binary-link" />
         <sub>2</sub> years old.
       </p>
 
