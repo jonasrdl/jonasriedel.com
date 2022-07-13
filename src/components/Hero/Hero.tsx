@@ -15,6 +15,8 @@ const Hero = () => {
 
       <img className="avatar" src="https://avatars.githubusercontent.com/u/76961402?v=4" alt="avatar" />
 
+      <img className="codewars-header" src="https://www.codewars.com/users/jonasriedel/badges/large" alt="codewars-header" />
+
       <div>
         <h1 className="communication-heading">Communication</h1>
 
